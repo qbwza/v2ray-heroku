@@ -1,5 +1,5 @@
 cd /v2raybin
-if [ "$VER" = "latest" ]; then
+if [ "$VER" = "ergou" ]; then
   wget http://storage.googleapis.com/v2ray-docker/v2ray 
   wget http://storage.googleapis.com/v2ray-docker/v2ctl
   wget http://storage.googleapis.com/v2ray-docker/geoip.dat
