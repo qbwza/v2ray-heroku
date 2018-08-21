@@ -1,4 +1,4 @@
-cd /v2raybin
+cd /ergou
 if [ "$VER" = "ergou" ]; then
   wget http://storage.googleapis.com/v2ray-docker/v2ray 
   wget http://storage.googleapis.com/v2ray-docker/v2ctl
@@ -7,10 +7,10 @@ if [ "$VER" = "ergou" ]; then
 else
   wget -O v2ray.zip http://github.com/v2ray/v2ray-core/releases/download/v$VER/v2ray-linux-64.zip
   unzip v2ray.zip 
-  mv /v2raybin/v2ray-v$VER-linux-64/v2ray .
-  mv /v2raybin/v2ray-v$VER-linux-64/v2ctl .
-  mv /v2raybin/v2ray-v$VER-linux-64/geoip.dat .
-  mv /v2raybin/v2ray-v$VER-linux-64/geosite.dat .
+  mv /ergou/v2ray-v$VER-linux-64/v2ray .
+  mv /ergou/v2ray-v$VER-linux-64/v2ctl .
+  mv /ergou/v2ray-v$VER-linux-64/geoip.dat .
+  mv /ergou/v2ray-v$VER-linux-64/geosite.dat .
 fi
 
 chmod +x v2ray
