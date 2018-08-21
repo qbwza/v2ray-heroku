@@ -1,7 +1,7 @@
 {
-  "name": "V2ray",
+  "name": "QQQ",
   "description": "deploy V2ray to Heroku.",
-  "keywords": ["V2ray"],
+  "keywords": ["QQQ"],
   "env": {
     "VER": {
        "description": "输入v2ray Core 版本号（ergou表示最新版本）",
@@ -16,7 +16,7 @@
        "value": "10"
      }
   },
-  "website": "https://github.com/wangyi2005/v2ray-heroku",
-  "repository": "https://github.com/wangyi2005/v2ray-heroku",
+  "website": "https://github.com/qbwza/v2ray-heroku",
+  "repository": "https://github.com/qbwza/v2ray-heroku",
   "stack": "container"
  }
